@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Number Score</string>
+    <string name="change_level">Сложность</string>
+    <string name="easy">Легко</string>
+    <string name="game_over">Игра окончена</string>
+    <string name="hard">Сложно</string>
+    <string name="highscore">Новый рекорд</string>
+    <string name="medium">Средне</string>
+    <string name="play">Играть</string>
+    <string name="save_score">"Твой рекорд: "</string>
+    <string name="exit">Для выхода нажмите назад ещё раз</string>
+</resources>

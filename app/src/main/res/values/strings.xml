@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Number Score</string>
+    <string name="play">Play</string>
+    <string name="change_level">Change Level</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="game_over">Game Over</string>
+    <string name="highscore">New High Score</string>
+    <string name="save_score">"Your High score: "</string>
+    <string name="exit">Press Back again to Exit</string>
+</resources>

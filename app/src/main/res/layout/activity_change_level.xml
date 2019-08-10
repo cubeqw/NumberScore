@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:background="#FFFFFF">
+    <com.hanks.htextview.HTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_level"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/change_level"
+        android:textColor="#999999"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+    <com.hanks.htextview.HTextView
+        android:id="@+id/easy_button"
+        android:layout_width="220dp"
+        android:layout_margin="10dp"
+        android:layout_height="90dp"
+        android:background="@drawable/easycolor"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        android:shadowColor="#0CB0B0B3"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <com.hanks.htextview.HTextView
+        android:id="@+id/medium_button"
+        android:layout_width="220dp"
+        android:layout_margin="10dp"
+        android:layout_height="90dp"
+        android:background="@drawable/mediumcolor"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        android:shadowColor="#0CB0B0B3"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <com.hanks.htextview.HTextView
+        android:id="@+id/hard_button"
+        android:layout_width="220dp"
+        android:layout_margin="10dp"
+        android:layout_height="90dp"
+        android:background="@drawable/gradiant"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        android:shadowColor="#0CB0B0B3"
+        android:textColor="#FFFF"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+</LinearLayout>
+
+
+</RelativeLayout>
